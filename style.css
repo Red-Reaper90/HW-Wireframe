@@ -33,6 +33,7 @@ section {
     width: 46%;
     text-align: center;
     float: left;
+    color: green;
 }
 
 aside {
@@ -44,23 +45,27 @@ aside {
     width: 40%;
     text-align: center;
     float: right;
+    color: red;
 }
 
 article {
     color: #ebebeb;
-    background: #777;
+    background: green;
     text-align: center;
+    width: 100px;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
     text-align: center;
+    width: 20%;
 }
 
 footer {
     background: #ebebeb;
     text-align: center;
+    clear: both;
 }
 
 .box { 
@@ -75,4 +80,12 @@ footer {
     content: "";
     clear: both;
     display: table;
+  }
+
+  #full {
+      overflow: auto;
+  }
+
+  #back {
+      background: green;
   }
