@@ -33,7 +33,6 @@ section {
     width: 46%;
     text-align: center;
     float: left;
-    color: green;
 }
 
 aside {
@@ -45,12 +44,11 @@ aside {
     width: 40%;
     text-align: center;
     float: right;
-    color: red;
 }
 
 article {
     color: #ebebeb;
-    background: green;
+    background: #777;
     text-align: center;
     width: 100px;
 }
@@ -86,6 +84,4 @@ footer {
       overflow: auto;
   }
 
-  #back {
-      background: green;
-  }
+  
